@@ -1,5 +1,5 @@
 shirayarhi, login2
-Shira Yarhi (318344637), Student Name2 (ID2)
+Shira Yarhi (318344637), Omri Tamam (315564112)
 EX: 1
 
 FILES:
