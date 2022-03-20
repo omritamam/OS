@@ -46,3 +46,5 @@
 
 
 *.log
+*.py
+/ex1/cmake-build-debug/
