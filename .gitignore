@@ -129,7 +129,7 @@ fabric.properties
 
 
 CMakeLists.txt.user
-CMakeCache.txt
+ex1/CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
@@ -139,3 +139,4 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+ex1\cmake-build-debug
