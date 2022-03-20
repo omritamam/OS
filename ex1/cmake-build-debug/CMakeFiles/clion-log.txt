@@ -1,4 +1,0 @@
-/usr/local/APP/jetbrains/clion/2021.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /cs/usr/omri.tamam/CLionProjects/ex1
--- Configuring done
--- Generating done
--- Build files have been written to: /cs/usr/omri.tamam/CLionProjects/ex1/cmake-build-debug

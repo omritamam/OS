@@ -1,2 +1,0 @@
-/usr/bin/ar qc libex1.a CMakeFiles/ex1.dir/library.c.o CMakeFiles/ex1.dir/osm.c.o CMakeFiles/ex1.dir/test.c.o
-/usr/bin/ranlib libex1.a
