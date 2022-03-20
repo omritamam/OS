@@ -1,10 +1,10 @@
 #ifndef _OSM_H
 #define _OSM_H
+#include "osm.h"
 
 
 /* calling a system call that does nothing */
-#define OSM_NULLSYSCALL asm volatile( "int $0x80 " : : \
-"a" (0xffffffff) /* no such syscall */, "b" (0), "c" (0), "d" (0) /*:\
+#define OSM_NULLSYSCALL asm volatile( "int $0x80 " : : "a" (0xffffffff) /* no such syscall */, "b" (0), "c" (0), "d" (0) /*:\
 "eax", "ebx", "ecx", "edx"*/)
 
 
