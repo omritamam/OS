@@ -85,7 +85,6 @@ double osm_function_time(unsigned int iterations){
         do_nothing();
         do_nothing();
         do_nothing();
-
     }
     gettimeofday(&end, 0);
     long microseconds = (end.tv_usec - begin.tv_usec);
