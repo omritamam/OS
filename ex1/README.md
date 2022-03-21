@@ -1,15 +1,14 @@
-shirayarhi, login2
+shirayarhi, omri.tamam
 Shira Yarhi (318344637), Omri Tamam (315564112)
 EX: 1
 
 FILES:
-myfile.c -- a file with some code
-myfile.h -- a file with some headers
+main.c -- includes main function that runs osm lib funcs.
+osm.h -- header for osm lib
+osm.c -- library of 3 static functions
+###TODO: add graph photo!!
 
 REMARKS:
-These are some remarks that
-I want the graders to know
-about this submission.
 
 ANSWERS:
 
