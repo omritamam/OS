@@ -24,11 +24,15 @@ The program does the following:
 - Exit the program
 
 Assignment 2:
-In this assignment we measured diffrent operations in 
-first of all, ניתן לראות that in all the diffrent platforms the operation call took time 
-##מחשב רגיל הכי מהיר (כמו שציפינו)
-## VM איטי יותר בגלל הקריאה הכפולה 
-## container 
-סיסקול באמת הכי איטי כמו שרצינו בגלל הטראפ
-יציאה לפונקציה בערך לוקחת 7 פקודות אטומיות כמו חיבור
+In this assignment we tested run times of different operations on different platforms as required.
+First of all, the syscall, as we expected, took a long time on all three platforms because of the transition 
+between modes - trap. 
+In contrast, both the add operation and function call took significantly less time because they use CPU directly. 
+(The call to a function takes about 7 times as long as the connection operation, because it contains about 7 similar 
+atomic operations).
 
+
+In comparing the platforms, in the regular computer and the container the running time was relatively similar and very 
+small. This is because all operations are done directly on the computer's hardware. In contrast, in VM, because there is 
+virtualization of both the hardware and the operating system, the VM uses them, so it takes more time to use both them 
+and the original systems.
