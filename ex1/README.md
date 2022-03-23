@@ -12,9 +12,9 @@ REMARKS:
 Assignment 1:
 
 The program does the following:
-- Opens folder called "Welcome"
-- Opens folder called "To"
-- Opens file called "OS2021"
+- Creates folder called "Welcome"
+- Creates folder called "To"
+- Creates file called "OS2021"
 - Checks the folder's protection and its size
 - Write in this file "If you haven't read the course guidelines yet --- do it right now!"
 - Closed the file
@@ -24,6 +24,8 @@ The program does the following:
 - Exit the program
 
 Assignment 2:
+In this assignment we measured diffrent operations in 
+first of all, ניתן לראות that in all the diffrent platforms the operation call took time 
 ##מחשב רגיל הכי מהיר (כמו שציפינו)
 ## VM איטי יותר בגלל הקריאה הכפולה 
 ## container 
