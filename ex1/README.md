@@ -3,14 +3,11 @@ Shira Yarhi (318344637), Omri Tamam (315564112)
 EX: 1
 
 FILES:
-main.c -- includes main function that runs osm lib funcs.
 osm.h -- header for osm lib
 osm.c -- library of 3 static functions
-###TODO: add graph photo!!
 
 REMARKS:
 
-ANSWERS:
 
 Assignment 1:
 
@@ -25,3 +22,11 @@ The program does the following:
 - Delete the "To" folder
 - Delete the "Welcome" folder
 - Exit the program
+
+Assignment 2:
+##מחשב רגיל הכי מהיר (כמו שציפינו)
+## VM איטי יותר בגלל הקריאה הכפולה 
+## container 
+סיסקול באמת הכי איטי כמו שרצינו בגלל הטראפ
+יציאה לפונקציה בערך לוקחת 7 פקודות אטומיות כמו חיבור
+
