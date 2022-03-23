@@ -32,7 +32,7 @@ In contrast, both the add operation and function call took significantly less ti
 atomic operations).
 
 
-In comparing the platforms, in the regular computer and the container the running time was relatively similar and very 
-small. This is because all operations are done directly on the computer's hardware. In contrast, in VM, because there is 
-virtualization of both the hardware and the operating system, the VM uses them, so it takes more time to use both them 
-and the original systems.
+In comparing the platforms, in the regular computer and the container the running time was relatively similar and  
+fast. This is because all operations are done directly on the computer's hardware and original OS. In contrast, in VM, because there is 
+virtualization of both the hardware and the OS, the VM uses them, so it takes more time to use both them 
+and the original systems. Every operation - atomic and syscall - are virtualized first in the host env.
